@@ -1,0 +1,63 @@
+div.navbar{
+  position: fixed;
+  top: 0px;
+  width: 100%
+}
+
+.jumbotron{
+  margin: 100px;
+  background-color:#98a886;
+  border-color: #465c69;
+  border-width: thick;
+  border-style: groove;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Coiny', cursive;
+  color: white;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:link{
+  color: #735290;
+  font-weight: bold;
+}
+
+a:visited{
+  color: #735290;
+  font-weight: bold;
+}
+
+
+.selfie{
+  text-align: center;
+  margin: 20px;
+  padding-top: 25px;
+}
+
+.purple{
+  background: #363457;
+  height: 350px;
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+div.space{
+  text-align: center;
+  margin: 20px;
+}
+
+.logos{
+  text-align: center;
+  margin: 15px;
+}
+
+#awesomelogo{
+  padding-right: 50px;
+}
+
+.
