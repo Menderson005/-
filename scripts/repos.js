@@ -15,13 +15,22 @@ window.addEventListener("load", getData)
           data.map(function(repos){
               first += `
                 <hr>
-                <ul>
-                  <li>${repos.description}</li>
-                  <li>(<a href="${repos.html_url}">${repos.html_url}</a>)</li>
-                </ul>
+                <div class="card border-dark mb-3" style="max-width: 35rem; z-index:-10000;">
+                  <div class="card-header">${repos.description}</div>
+                  <div class="card-body text-dark">
+                  <!--  <h5 class="card-title">Dark card title</h5> -->
+                    <p class="card-text"><a href=${repos.html_url}>${repos.html_url}</a></p>
+                  </div>
+                </div>
+
               `
 
           })
           document.getElementById('repos').innerHTML = first
         })
     }
+
+    // <ul>
+    //   <li>${repos.description}</li>
+    //   <li>(<a href="${repos.html_url}">${repos.html_url}</a>)</li>
+    // </ul>
